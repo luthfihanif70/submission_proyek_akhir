@@ -103,7 +103,7 @@ max_date_day = day_cleaned_df["dteday"].max()
 
 with st.sidebar:
     # Menambahkan logo
-    st.image("logo.jpg") # source = https://www.vecteezy.com/vector-art/19030974-bike-rental-logo-with-a-bicycle-and-label-combination-for-any-business
+    st.image("dashboard/logo.jpg") # source = https://www.vecteezy.com/vector-art/19030974-bike-rental-logo-with-a-bicycle-and-label-combination-for-any-business
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
