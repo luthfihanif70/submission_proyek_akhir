@@ -81,8 +81,8 @@ def group_by_hour_df(hour_df):
     return by_hour_df
 
 # load berkas yang akan digunakan sebagai DataFrame
-day_cleaned_df = pd.read_csv("day_cleaned.csv")
-hour_cleaned_df = pd.read_csv("hour_cleaned.csv")
+day_cleaned_df = pd.read_csv("dashboard/day_cleaned.csv")
+hour_cleaned_df = pd.read_csv("dashboard/hour_cleaned.csv")
 
 # Mengurutkan DataFrame berdasarkan dteday dan memastikan kolom bertipe datetime
 datetime_columns = ["dteday"]
