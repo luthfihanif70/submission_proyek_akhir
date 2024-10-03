@@ -14,20 +14,25 @@ Ini merupakan proyek analisis data terhadap Bike Sharing Dataset. Tujuan dari pr
     git clone https://github.com/luthfihanif70/submission_proyek_akhir.git
 ```
 
-3. Install semua requirements</br>
+3. Masuk dalam project directory</br>
 
 ```bash
-    pip install streamlit
+    cd submission_proyek_akhir
+```
+
+4. Install semua requirements</br>
+
+```bash
     pip install -r requirements.txt
 ```
 
-4. Masuk dalam project directory</br>
+5. Masuk dalam dashboard directory</br>
 
 ```bash
-    cd submission_proyek_akhir/dashboard/
+    cd dashboard
 ```
 
-5. Jalankan website</br>
+6. Jalankan website</br>
 
 ```bash
     streamlit run dashboard.py
